@@ -11,7 +11,10 @@ import java.io.IOException;
 public class SecController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("text", req.getRemoteAddr());
+        req.setAttribute("text1", req.getRemoteAddr());
+        req.setAttribute("text2", req.getUserPrincipal());
+        req.setAttribute("text3", req.isUserInRole("test"));
+
         req.getRequestDispatcher("/WEB-INF/sec.jsp").forward(req, resp);
     }
 }

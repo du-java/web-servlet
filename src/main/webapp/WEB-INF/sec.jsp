@@ -6,7 +6,9 @@
     <title>Hello Security</title>
 </head>
 <body>
-<h1><c:out value="${text}"/></h1>
+<h1><c:out value="${text1}"/></h1>
+<h1><c:out value="${text2}"/></h1>
+<h1><c:out value="${text3}"/></h1>
 <a href="/local/hello2">HelloWorld</a>
 </body>
 </html>
