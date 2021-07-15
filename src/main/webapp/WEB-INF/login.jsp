@@ -6,9 +6,9 @@
     <title>Login</title>
 </head>
 <body>
-<form action="/local/login" method=post>
-<input type=text name="username"><br>
-<input type=password name="password"><br>
+<form action="j_security_check" method=post>
+<input type=text name="j_username"><br>
+<input type=password name="j_password"><br>
 <input type=submit value="login">
 </form>
 </body>
