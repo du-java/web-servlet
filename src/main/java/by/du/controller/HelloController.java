@@ -1,4 +1,4 @@
-package by.du;
+package by.du.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

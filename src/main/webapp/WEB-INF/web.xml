@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>by.du.HelloController</servlet-class>
+        <servlet-class>by.du.controller.HelloController</servlet-class>
     </servlet>
 
     <servlet-mapping>
